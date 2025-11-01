@@ -9,7 +9,7 @@
 
 def suma_en_binario(a,b):
     suma=a+b
-    return bin(int(suma)).replace("0b","") #replace para quitar el prefijo 0b que indica que es binario
+    return bin(int(abs(suma))).replace("0b","") #replace para quitar el prefijo 0b que indica que es binario
 
 print(suma_en_binario(1.8,1))
 print(suma_en_binario(5,-9))
