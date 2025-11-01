@@ -41,6 +41,7 @@ if __name__ == "__main__":
         [1, 2, 3],                         # outlier 2 (par)
         [2, 6, 8, 10, 3],                 # outlier 3 (impar)
         [4, 1],                         # outlier 1 (impar)
+        [4],  
     ]
 
     for arr in examples:
