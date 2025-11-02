@@ -21,3 +21,4 @@ def solution(s):
 
 print (solution('abc'))
 print (solution('abcddfghgdedd'))
+print (solution(''))
