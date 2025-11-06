@@ -14,7 +14,7 @@ morse_table = {
 }
 def morse_to_text(morse_code):
     morse_to_char = {v: k for k, v in morse_table.items()} # diccionario inverso
-    palabras = morse_code.strip().split("   ")  # separar palabras (3 espacios)
+    palabras = morse_code.strip().split("   ")  # quita con strip los espacios de lane y atras y separar palabras (3 espacios)
     texto_decodificado = []
     for palabra in palabras:
         letras = palabra.split()  # separar letras (1 espacio)
