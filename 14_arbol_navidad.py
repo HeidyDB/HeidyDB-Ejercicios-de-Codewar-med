@@ -5,6 +5,16 @@ def tower_builder(n_floors):
         espacios = ' ' * (n_floors - i - 1)
         result.append(espacios + estrellas + espacios)
     return result
+
+
 pisos = tower_builder(5)
 for piso in pisos:
     print(piso) 
+
+#     *
+#    ***
+#   *****
+#  *******
+# *********
+
+
