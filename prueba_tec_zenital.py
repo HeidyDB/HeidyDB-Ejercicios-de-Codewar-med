@@ -114,8 +114,11 @@ LEFT JOIN response r             ON b.order_id = r.order_id
 
 df = pd.read_sql(query, conn)
 
-print(df.head())
-conn.close()
+#print(df.head())
+pd.set_option('display.max_columns', None)
+pd.set_option('display.max_rows', None)
+print(df)
+#conn.close()
 
 
 
