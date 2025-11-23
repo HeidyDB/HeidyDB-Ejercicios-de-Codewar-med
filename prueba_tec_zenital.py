@@ -115,4 +115,7 @@ LEFT JOIN response r             ON b.order_id = r.order_id
 df = pd.read_sql(query, conn)
 
 print(df.head())
+conn.close()
+
+
 
