@@ -22,3 +22,6 @@ def sumIntervals(intervals):
     # Calcular la suma de las longitudes de los intervalos fusionados
     total_length = sum(end - start for start, end in merged_intervals)
     return total_length
+
+print(sumIntervals([[1, 4], [7, 10], [3, 5]]))  # Debería devolver 7
+print(sumIntervals([[1, 5], [10, 15], [5, 10]]))  # Debería devolver 14
